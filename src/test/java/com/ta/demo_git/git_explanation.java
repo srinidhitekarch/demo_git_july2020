@@ -19,7 +19,7 @@ public class git_explanation {
  in a project we can have more than 1 people code can be merged and the same can be released.
  
  
- git init --> setup the git to your project
+  git init--> setup the git to your project
  you have to specify the repository to whihc you need to push this project
  
 git status
@@ -28,6 +28,17 @@ git remote add origin <repo url>
 
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
+
+git add *
+
+git commit -m "message"
+
+git push origin master  --> (git push -f)
+
+added new code here
+
+
+ 
 
  
  * */
